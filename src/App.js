@@ -33,6 +33,7 @@ function App() {
       <h2>Dictionary App</h2>
       <form onSubmit={handleSearch}>
         <input 
+          type='text'
           placeholder='Search for a word...'
           value={input}
           onChange={(e) => setInput(e.target.value)}
