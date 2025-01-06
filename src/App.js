@@ -42,8 +42,6 @@ function App() {
       </form>
       <div>
         <label><strong>Definition:</strong></label>
-      </div>
-      <div>
         <label>{result}</label>
       </div>
     </div>
